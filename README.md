@@ -7,4 +7,4 @@ as We Know Spotify is a digital music, podcast, and video service that gives us 
 To build a Spotify Recommender System Using Spotify API
 
 ## First What's A Recommendation System !!
-
+One of the most used machine learning algorithms is recommendation systems. A recommender (or recommendation) system (or engine) is a filtering system which aim is to predict a rating or preference a user would give to an item, eg. a film, a product, a song, etc.
