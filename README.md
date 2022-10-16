@@ -22,7 +22,7 @@ Data came from 2 sources:
 - The Spotify Million Playlist Dataset which contained Four separate JSON files
 
 ## Understanding the Dataset:
-- The Spotify million playlist dataset consists of 4 JSON dictionary:
+- The Spotify million playlist dataset consists of 4 JSON Files:
     - pid - the playlist ID.
     - name - (optional) - the name of the playlist. For some challenge playlists, the name will be missing.
     - tracks - a (possibly empty) array of tracks that are in the playlist. Each element of this array contains the following fields:
