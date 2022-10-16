@@ -13,3 +13,9 @@ One of the most used machine learning algorithms is recommendation systems. A re
     - Collaborative Filtering Algorithm (Based on users interactions of different track)
     - Content Based Filtering (Based on users demographics and tracks attributes)
     - Natural Language Processing (Based on analyzing tracks lyrics).
+- In this project we build our Recommendation System to recommend similar songs to the user input, we used different algorithms which are:
+    - Content Based Filtering
+    - Clustering
+
+
+
