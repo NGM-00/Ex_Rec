@@ -21,6 +21,17 @@ Data came from 2 sources:
 - API Calls of Spotify's Web API to get audio features for each track.
 - The Spotify Million Playlist Dataset which contained Four separate JSON files
 
+## Understanding the Dataset:
+- The Spotify million playlist dataset consists of 4 JSON dictionary:
+    - pid - the playlist ID.
+    - name - (optional) - the name of the playlist. For some challenge playlists, the name will be missing.
+    - tracks - a (possibly empty) array of tracks that are in the playlist. Each element of this array contains the following fields:
+       - pos - the position of the track in the playlist (zero offset)
+       - track_name - the name of the track
+       - track_uri - the Spotify URI of the track
+       - artist_name - the name of the primary artist of the track
+       - artist_uri - the Spotify URI of the primary artist of the track
+
 
 
 
