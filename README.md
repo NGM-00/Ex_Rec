@@ -1,3 +1,3 @@
 # Spotify-Recommendation-System
 
-### Planing Stage
+## Planing Stage
