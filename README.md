@@ -31,7 +31,17 @@ Data came from 2 sources:
        - track_uri - the Spotify URI of the track
        - artist_name - the name of the primary artist of the track
        - artist_uri - the Spotify URI of the primary artist of the track
-
+       - album_name - the name of the album that the track is on
+       - album_uri -- the Spotify URI of the album that the track is on
+       - duration_ms - the duration of the track in milliseconds
+    - num_tracks - the total number of tracks in the playlist.
+- The Audio Features are scraped from Spotify API using spotipy library, which are:
+    - acousticness (A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.)
+    - analysis_url (A URL to access the full audio analysis of this track. An access token is required to access this data.)
+    - danceability (Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength,     and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.)
+    - duration_ms (The duration of the track in milliseconds.)
+    - energy (Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range,      perceived loudness, timbre, onset rate, and general entropy.)
+id (The Spotify ID for the track.)
 
 
 
